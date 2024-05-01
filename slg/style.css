@@ -65,7 +65,15 @@ body
     font-weight:400;
     
 }
-
+.foot {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 .text a{
    height:1rem; 
    font-weight: 400;
