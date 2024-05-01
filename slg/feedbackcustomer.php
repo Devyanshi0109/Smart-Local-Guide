@@ -79,7 +79,7 @@ if(isset($_POST['feedback'])){
                 <br>
                 <br>
         
-                <textarea id="feedback" name="feedback" rows="4" required placeholder="feedback"></textarea>
+                <textarea id="feedback" name="feedback" rows="4" required placeholder="Feedback"></textarea>
                 <br>
                 <br>
 
