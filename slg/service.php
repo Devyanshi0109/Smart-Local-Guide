@@ -56,11 +56,11 @@ if(isset($_POST['register'])){
     <link rel="stylesheet" href="login.css">
    <title>Login/Register as Service Provider</title>
 </head>
-<body>
+<body style="background-color : #ffd700">
 	<div class="container">
 		<div class="blueBg">
          <div class="box signin">
-            <h1>Service Provider</h1>
+            <h1 style="color : white;">Service Provider</h1>
             <br>
             <h2>Already have an Account ?</h2>
             <br>
@@ -70,7 +70,7 @@ if(isset($_POST['register'])){
 
          </div>
          <div class="box signup">
-            <h1>Service Provider </h1>
+            <h1 style="color : white;">Service Provider </h1>
             <br>
             <h2>Don't have an Account ?</h2>
             <br>
@@ -100,7 +100,7 @@ if(isset($_POST['register'])){
                <input type="password" name="password" placeholder="Password" class="box" required>
                <a href="#" class="forgot">Forgot password ?</a>
                <br><br>
-               <input type="submit" name="submit" value="LOGIN">
+               <input style="background-color : #ffd700" type="submit" name="submit" value="LOGIN">
                
             </form>
          </div>
@@ -112,7 +112,7 @@ if(isset($_POST['register'])){
                <input type="email" name="email1" placeholder="Email" class="box" required>
                <input type="password" name="password1" placeholder="Password" class="box" required>
                <input type="password" name="cpassword1" placeholder="Confirm Password" class="box" required>
-               <input type="submit" name="register" value="REGISTER">
+               <input style="background-color : #ffd700" type="submit" name="register" value="REGISTER">
                
             </form>
          </div>
